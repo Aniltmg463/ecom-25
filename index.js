@@ -16,7 +16,7 @@ const _dirname = path.resolve(); // Fix for ES module
 const app = express(); // Initialize express app
 
 // Middleware
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://ecom-25.onrender.com/", credentials: true }));
 app.use(express.json());
 app.use(morgan("dev"));
 
